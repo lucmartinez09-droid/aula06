@@ -11,4 +11,6 @@ try {
     console.log("Saldo atual: R$ " + saldo);
 } catch (erro) {
     console.log("Erro: " + erro.message);
+} finally {
+    console.log("obrigado por usar o sistema");
 }
